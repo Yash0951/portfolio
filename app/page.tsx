@@ -249,6 +249,23 @@ export default function Home() {
             <a className="text-link" href="#contact">Let&apos;s compare notes <ArrowUpRight size={16} /></a>
           </div>
         </div>
+        <div className="about-portrait">
+          <div className="about-portrait-visual">
+            <Image
+              src="/images/yash-portrait-about.webp"
+              alt="Temporary editorial portrait of Yash Meena"
+              fill
+              sizes="(max-width: 800px) 100vw, 420px"
+              className="about-portrait-image"
+            />
+            <span className="about-portrait-label">02 / THE OTHER SIDE OF THE WORK</span>
+          </div>
+          <div className="about-portrait-copy">
+            <span className="section-kicker">A SECOND VIEW</span>
+            <h3>Human context, technical clarity.</h3>
+            <p>The work is part strategy, part systems thinking and part listening carefully enough to understand what people actually need.</p>
+          </div>
+        </div>
         <div className="stat-strip">
           <div><strong>40%</strong><span>less workflow latency</span></div>
           <div><strong>100%</strong><span>on-time milestones</span></div>
@@ -378,4 +395,3 @@ export default function Home() {
     </main>
   );
 }
-
