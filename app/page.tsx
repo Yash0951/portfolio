@@ -103,11 +103,11 @@ const experiences = [
       "Used 40+ customer interactions and competitive research to shape product priorities, improve sprint velocity by 15% and increase organic inbound acquisition by 22%.",
   },
   {
-    date: "OCT 2022 — JUL 2026",
-    company: "VIT Bhopal University",
-    role: "B.Tech · Computer Science Engineering",
+    date: "OCT 2025 — Dec 2025",
+    company: "Accelerator X",
+    role: "Growth & Marketing Intern",
     detail:
-      "Built a foundation across software engineering, systems and problem-solving, graduating with a CGPA of 8.39.",
+      "Analyzed user drop-offs across the onboarding funnel; executed targeted A/B tests on landing pages that increased user registration conversions by 14% and boosted lead gen by 35%.",
   },
 ];
 
@@ -166,7 +166,7 @@ export default function Home() {
 
       <header className="nav wrap">
         <a className="brand" href="#home" onClick={closeMenu} aria-label="Yash Meena home">
-          YM<span>.</span>
+          Mhunk<span>.</span>
         </a>
         <nav className={menuOpen ? "navlinks open" : "navlinks"} aria-label="Primary navigation">
           <a href="#about" onClick={closeMenu}>About</a>
